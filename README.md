@@ -51,4 +51,3 @@ To run this project:
 2. Install dependencies: `pip install pandas numpy scikit-learn seaborn matplotlib`
 3. Open the main notebook: `jupyter notebook notebooks/TP5_mergedDatasets.ipynb`
 
-**Note:** The README references a French title "Prédiction de la Résistance du Béton avec Scikit-Learn" (Concrete Strength Prediction with Scikit-Learn).
