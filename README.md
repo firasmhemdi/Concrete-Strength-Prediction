@@ -135,20 +135,13 @@ Concrete-Strength-Prediction/
 ├── .gitignore                          # Git ignore file
 │
 ├── data/
-│   ├── concrete.csv                    # Original dataset
-│   └── concrete_processed.csv          # Preprocessed data (if available)
+│   ├── mergedDatasets.xlsx                    # Original dataset
+│  
 │
 ├── notebooks/
-│   ├── 01_exploratory_analysis.ipynb         # Data exploration & visualization
-│   ├── 02_data_preprocessing.ipynb           # Data cleaning & preparation
-│   ├── 03_model_development.ipynb            # Model training & comparison
-│   └── 04_results_evaluation.ipynb           # Performance analysis
-│
-└── src/
-    ├── data_loader.py                  # Data loading utilities
-    ├── preprocessing.py                # Data preprocessing functions
-    ├── model_training.py               # Model development and training
-    └── evaluation.py                   # Evaluation metrics and visualization
+   ├── TP5_mergedDatasets.ipynb
+        
+
 ```
 
 ## 🚀 Usage
@@ -160,11 +153,6 @@ Start by exploring the data:
 jupyter notebook notebooks/01_exploratory_analysis.ipynb
 ```
 
-Then proceed through the notebooks sequentially:
-
-1. **Data Preprocessing:** `02_data_preprocessing.ipynb`
-2. **Model Development:** `03_model_development.ipynb`
-3. **Results Evaluation:** `04_results_evaluation.ipynb`
 
 ### Quick Start Example
 
