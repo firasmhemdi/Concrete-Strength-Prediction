@@ -17,13 +17,38 @@ Le jeu de données contient les colonnes suivantes :
 | **Age** | Âge du béton au moment du test (jours) | Numérique (Entier) |
 | **Résistance** | **Variable Cible** : Résistance à la compression ($MPa$) | Numérique |
 
-## Objectifs du Projet
-Ce jeu de données est utilisé pour :
-* **Analyses de corrélation** entre les composants et la résistance.
-* **Entraînement de modèles de régression** (Régression Linéaire, RandomForest, etc.).
-* **Optimisation des formulations** du béton[cite: 1].
+## Concrete Strength Prediction Repository
 
-## Installation et Utilisation
-1. Clonez le dépôt : `git clone https://github.com/votre-nom/Concrete-Strength-Prediction.git`
-2. Installez les dépendances : `pip install pandas numpy scikit-learn seaborn matplotlib`
-3. Ouvrez le notebook : `jupyter notebook notebooks/TP5_mergedDatasets.ipynb`
+This is a **machine learning regression project** written in Jupyter Notebooks that predicts concrete compressive strength based on its chemical composition and age.
+
+### Project Overview
+
+**Objective:** Predict concrete compressive strength (MPa) from 8 input features representing the concrete mix composition and curing time.
+
+### Dataset Features
+
+The dataset contains 9 columns:
+- **8 Input Features:** Cement, slag (blast furnace slag), fly ash, water, superplasticizer, coarse aggregate, fine aggregate, and age (in days)
+- **1 Target Variable:** Compressive strength (MPa)
+
+### Key Project Activities
+
+The project focuses on:
+- **Correlation Analysis:** Understanding relationships between concrete components and final strength
+- **Regression Modeling:** Training models like Linear Regression and Random Forest
+- **Concrete Formulation Optimization:** Using ML insights to improve mix designs
+
+### Tech Stack
+
+- **Language:** Python (100% Jupyter Notebooks)
+- **Libraries:** pandas, numpy, scikit-learn, seaborn, matplotlib
+- **Type:** Regression task
+
+### Getting Started
+
+To run this project:
+1. Clone the repository
+2. Install dependencies: `pip install pandas numpy scikit-learn seaborn matplotlib`
+3. Open the main notebook: `jupyter notebook notebooks/TP5_mergedDatasets.ipynb`
+
+**Note:** The README references a French title "Prédiction de la Résistance du Béton avec Scikit-Learn" (Concrete Strength Prediction with Scikit-Learn).
